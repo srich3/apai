@@ -271,7 +271,7 @@ api-monitor-pro/
 ### Environment Variables
 ```env
 # Database
-DATABASE_URL="postgresql://user:password@localhost:5432/apimonitor"
+DATABASE_URL="postgresql://user:password@localhost:5432/apai"
 REDIS_URL="redis://localhost:6379"
 
 # Authentication

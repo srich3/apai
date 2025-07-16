@@ -6,10 +6,28 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../src/generated/prisma"
+ // output   = "../src/generated/prisma"
 }
 
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+}
+
+model Monitor {
+    id        Int      @id @default(autoincrement())
+    name      String
+    url       String
+    method    String
+    interval  Int
+    timeout   Int
+    // ... other fields ...
+}
+
+model Alert {
+  id         Int      @id @default(autoincrement())
+  monitorId  Int
+  // ... other fields ...
+  sentAt     DateTime
+  // ... etc ...
 }
