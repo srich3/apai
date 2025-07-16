@@ -180,11 +180,11 @@ api-monitor-pro/
 **Goal**: Basic authentication and project setup
 
 **Tasks**:
-- [ ] Initialize Next.js project with TypeScript
-- [ ] Set up Prisma with PostgreSQL
-- [ ] Implement NextAuth.js authentication
-- [ ] Create basic UI components with Tailwind
-- [ ] Set up project structure and routing
+- [x] Initialize Next.js project with TypeScript
+- [x] Set up Prisma with PostgreSQL
+- [x] Implement NextAuth.js authentication
+- [x] Create basic UI components with Tailwind
+- [x] Set up project structure and routing
 
 **Deliverables**:
 - Working authentication system
@@ -196,11 +196,11 @@ api-monitor-pro/
 **Goal**: Implement basic monitoring functionality
 
 **Tasks**:
-- [ ] Create monitor CRUD operations
-- [ ] Implement HTTP endpoint checking logic
-- [ ] Set up monitoring worker with node-cron
-- [ ] Create monitor results storage
-- [ ] Build basic dashboard with monitor status
+- [x] Create monitor CRUD operations
+- [x] Implement HTTP endpoint checking logic
+- [x] Set up monitoring worker with node-cron
+- [x] Create monitor results storage
+- [x] Build basic dashboard with monitor status
 
 **Deliverables**:
 - Ability to add/edit/delete monitors
